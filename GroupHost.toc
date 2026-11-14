@@ -1,0 +1,22 @@
+## Interface: 16001
+## Title: GroupHost
+## Notes: Shows where each group finder listing is hosted and filters listings by host location.
+## Author: Dranged
+## Version: 0.1.3
+## OptionalDeps: EllesmereUI, EllesmereUIGroupFinder
+## X-DrangedAddons-Games: _forever_
+## IconTexture: Interface\AddOns\GroupHost\icon
+## AddonCompartmentFunc: GroupHost_OnCompartmentClick
+## SavedVariables: GroupHostDB
+## SavedVariablesPerCharacter: GroupHostCharDB
+
+Libs\LibStub\LibStub.lua
+Libs\CallbackHandler-1.0\CallbackHandler-1.0.lua
+Libs\LibDataBroker-1.1\LibDataBroker-1.1.lua
+Libs\LibDBIcon-1.0\LibDBIcon-1.0.lua
+Theme.lua
+Widgets.lua
+Window.lua
+Realms.lua
+Core.lua
+UI.lua
